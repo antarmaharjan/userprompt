@@ -1,0 +1,23 @@
+Algorithm
+
+Prompt user for- “Would you like to continue?”
+Get input from user
+Check for three things: -
+1.	If user prompts “Yes”-Continue –Re-Prompt the user
+2.	If user prompts “other” –Display error message”- “re-Prompt the user”
+3.	If user prompts “No”-Quit
+
+
+Pseudocode
+step 1: Initialize an empty string. (say str)
+step 2: Construct a new “Scanner” object
+Step 3: prompt the user
+Step 4: Get the user input
+Step 5: while user prompts yes
+	Input the next line
+	If responses no
+	System quits
+	else
+	Display error message and re-prompts again
+	End if
+End while
